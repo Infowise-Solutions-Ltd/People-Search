@@ -1,4 +1,4 @@
-# PeopleSearchPro
+# People Search Pro
 Search people by name or position in a SharePoint web part.
 Integrates on every page of your Intranet SharePoint portal to quickly find employee contact information.
 
