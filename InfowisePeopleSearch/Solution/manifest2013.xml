@@ -1,0 +1,28 @@
+﻿<Solution SolutionId="28AC5973-A0E7-40cd-9F76-6181F523CE0E" xmlns="http://schemas.microsoft.com/sharepoint/" SharePointProductVersion="15.0" Title="Infowise People Search Pro" >
+	<FeatureManifests>
+		<FeatureManifest Location="InfowisePeopleSearch\feature.xml" />
+	</FeatureManifests>
+	<Assemblies>
+		<Assembly Location="Infowise.PeopleSearch.dll" DeploymentTarget="GlobalAssemblyCache" >
+			<SafeControls>
+				<SafeControl Assembly="Infowise.PeopleSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23853b1f8d5855a5" Namespace="Infowise.Sharepoint.V3.Webparts" TypeName="*" Safe="True" />
+			</SafeControls>
+		</Assembly>
+	</Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Images\Infowise\PeopleSearchPro\peoplr_search_sm.jpg" />
+    <TemplateFile Location="Images\Infowise\PeopleSearchPro\wp-icon.gif" />
+  </TemplateFiles>
+  <RootFiles>
+    <RootFile Location="Config\Resources\Infowise.PeopleSearch.resx"/>
+    <RootFile Location="Resources\Infowise.PeopleSearch.resx"/>
+    <RootFile Location="Config\Resources\Infowise.PeopleSearch.en-US.resx"/>
+    <RootFile Location="Resources\Infowise.PeopleSearch.en-US.resx"/>
+    <RootFile Location="Config\Resources\Infowise.PeopleSearch.de-DE.resx"/>
+    <RootFile Location="Resources\Infowise.PeopleSearch.de-DE.resx"/>
+    <RootFile Location="Config\Resources\Infowise.PeopleSearch.es-ES.resx"/>
+    <RootFile Location="Resources\Infowise.PeopleSearch.es-ES.resx"/>
+    <RootFile Location="Config\Resources\Infowise.PeopleSearch.fr-FR.resx"/>
+    <RootFile Location="Resources\Infowise.PeopleSearch.fr-FR.resx"/>
+  </RootFiles>
+</Solution>

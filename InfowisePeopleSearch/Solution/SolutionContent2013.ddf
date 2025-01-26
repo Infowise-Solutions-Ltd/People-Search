@@ -1,0 +1,32 @@
+﻿.OPTION Explicit
+.Set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles=Off
+.Set Cabinet=On
+.Set CabinetNameTemplate=Infowise.PeopleSearch.wsp
+;*************************************
+..\..\Solution\manifest2013.xml manifest.xml
+Infowise.PeopleSearch.dll
+
+.Set DestinationDir=InfowisePeopleSearch
+..\..\Solution\feature.xml
+..\..\Solution\elementManifest.xml
+..\..\Solution\InfowisePeopleSearch.webpart
+
+.Set DestinationDir=Images\Infowise\PeopleSearchPro
+..\..\Solution\peoplr_search_sm.jpg
+..\..\Solution\wp-icon.gif
+
+.Set DestinationDir = Config\Resources
+..\..\Solution\Infowise.PeopleSearch.resx
+..\..\Solution\Infowise.PeopleSearch.resx Infowise.PeopleSearch.en-US.resx
+..\..\Solution\Infowise.PeopleSearch.de-DE.resx
+..\..\Solution\Infowise.PeopleSearch.es-ES.resx
+..\..\Solution\Infowise.PeopleSearch.fr-FR.resx
+
+.Set DestinationDir = Resources
+..\..\Solution\Infowise.PeopleSearch.resx
+..\..\Solution\Infowise.PeopleSearch.resx Infowise.PeopleSearch.en-US.resx
+..\..\Solution\Infowise.PeopleSearch.de-DE.resx
+..\..\Solution\Infowise.PeopleSearch.es-ES.resx
+..\..\Solution\Infowise.PeopleSearch.fr-FR.resx

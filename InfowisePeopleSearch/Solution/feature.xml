@@ -1,0 +1,17 @@
+﻿<Feature  Title="Infowise People Search Pro"
+		      Id="B37FFC8A-5BDD-4d3b-AFD6-1C591ED5A26F"
+		      Description="$Resources:Infowise.PeopleSearch, FeatureDesc;" Version="1.0.0.0"
+		      Scope="Site" Hidden="FALSE"
+		      DefaultResourceFile="Infowise.PeopleSearch" 
+          xmlns="http://schemas.microsoft.com/sharepoint/"
+          Creator="Infowise Knowledge Solutions" 
+          ImageUrl="Infowise\PeopleSearchPro\peoplr_search_sm.jpg" 
+          ImageUrlAltText="Infowise Ltd" 
+          SolutionId="28AC5973-A0E7-40cd-9F76-6181F523CE0E"
+          ReceiverAssembly="Infowise.PeopleSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23853b1f8d5855a5"
+          ReceiverClass="Infowise.Sharepoint.V3.Webparts.FeatureReceivers.PeopleSearchFeatureReceiver">
+	<ElementManifests>
+		<ElementManifest Location="elementManifest.xml" />
+		<ElementFile Location="InfowisePeopleSearch.webpart" />
+	</ElementManifests>
+</Feature>

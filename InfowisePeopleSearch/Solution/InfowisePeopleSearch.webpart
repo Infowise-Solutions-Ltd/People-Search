@@ -1,0 +1,18 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Infowise.Sharepoint.V3.Webparts.PeopleSearch, Infowise.PeopleSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23853b1f8d5855a5" />
+      <importErrorMessage>Cannot import Infowise People Search</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Infowise People Search</property>
+        <property name="Description" type="string">$Resources:Infowise.PeopleSearch,FeatureDesc;</property>
+        <property name="CatalogIconImageUrl" type="string">/_layouts/15/images/Infowise/PeopleSearchPro/wp-icon.gif</property>
+        <property name="FrameType" type="string">None</property>
+        <property name="HelpUrl" type="string">http://www.infowisesolutions.com/product.aspx?id=PeopleSearchPro</property>
+        <property name="AllowClose" type="bool">False</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
